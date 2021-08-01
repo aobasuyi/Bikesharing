@@ -121,17 +121,17 @@ c.) What days of the week will a user more likely check out a bike?
 
 <br /> ![Image](Resources/Dashboard_story/DesMoines_bike_utilization.png) <br />
 
-- Customers on average have the highest utilization of bikes. The top 3 bikes used by customers by bikeIDS are: 31443, 38540 and 19481.
+- Customers on average have the highest utilization of bikes. The top 3 bikeIDs used by customers are: 31443, 38540 and 19481.
 
 ## Summary:
 - The average trip duration for bike ridesharing has increased steadily since 1990s.
 - Male subscribers are most likely to use the bike rideshare for each hour and on weekdays.
 
 
-
-- Two additional visualizations suggested for future analysis include
+##### Two additional visualizations suggested for future analysis:
  - Add a visualization that will predict the average trip utilization for the next five years
  - Determine top starting and stoping station by 
- - a.) usertype and b.) gender to find ways to increase bike sharing by both groups.
+   -  usertype and gender to find ways to increase bike sharing use by both groups.
+ 
 
 
