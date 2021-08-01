@@ -108,7 +108,7 @@ c.) What days of the week will a user more likely check out a bike?
 
 - Male subcribers are most likely to use bike rideshare on all weekdays compared to female subscribers. Unknown customers though are most likely to use the rideshare on Saturdays.
 
-##### Top 10 stations
+##### Top 10 stations:
 
 | Top 10 starting stations  | Top 10 ending stations |
 | ------------- | ------------- |
@@ -117,7 +117,7 @@ c.) What days of the week will a user more likely check out a bike?
 
 - Pershing Square North is both the top starting and ending station for bike rideshares. 
 
-##### Average Bike Utilization
+##### Average Bike Utilization:
 
 <br /> ![Image](Resources/Dashboard_story/DesMoines_bike_utilization.png) <br />
 
