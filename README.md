@@ -1,7 +1,7 @@
 # Bikesharing
 
 ## Overview of the analysis
-A trip analysis will be added to a bike-sharing business proposal at the request of a potential angel investor interested in providing seed funding to explore a bike share project in Des Moines.  
+A trip analysis will be performed to solidify a bike sharing business proposal. The proposal will be presented to a potential angel investor interested in providing seed funding to explore a bike share project in Des Moines.   
 <br />
 The three technical deliverables required to complete the bikesharing analysis include <br />
 
@@ -11,15 +11,15 @@ The three technical deliverables required to complete the bikesharing analysis i
 
 ## Resources
 - Data Source: This analysis was performed using the  [201908-citibike-tripdata.cvs](https://s3.amazonaws.com/tripdata/index.html) dataset.
--  Code: [NYC_Citibike_Challenge.ipynb](https://github.com/aobasuyi/Bikesharing/blob/main/NYC_Citibike_Challenge.ipynb) a
+-  Code: [NYC_Citibike_Challenge.ipynb](https://github.com/aobasuyi/Bikesharing/blob/main/NYC_Citibike_Challenge.ipynb) 
 - Data Tools: Jupyter Notebook, CSV, Tableau and IO (Web Server)
 - Software: Jupyter Notebook and Visual Studio Code 1.50.0
 
 ## Results:
 ### Deliverable 1
 #### Change Trip Duration to a Datetime Format <br />
-- Using Python and Pandas functions, convert the "tripduration" column from an integer to a datetime datatype to get the time in hours, minutes, and seconds (00:00:00). 
-- Convert the "tripduration" column to a datetime dataytpe, then export the DataFrame as a CSV file to use for the trip analysis
+- Using Python and Pandas functions, convert the "tripduration" column from an integer to a datetime datatype. 
+- Export the DataFrame as a CSV file to use for the trip analysis.
 ##### Code:
 ```
 # Files to load
@@ -48,81 +48,80 @@ CitiBike_df.to_csv(output_data_file, index=False)
 ```
 
 ### Deliverable 2
-#### Create Visualizations for the Trip Analysis: <br />
+#### Visualizations for the Trip Analysis: <br />
 
-a). How long bikes are checked out for all riders and genders.
+a).  How long bikes are checked out for all riders and genders?
 
-<br /> ![Image](Resources/Visualization/Checkout_times_gender.png) <br />
+| Checkout Times by Users  | Checkout Times by Gender |
+| ------------- | ------------- |
+| ![Top 10 starting](Resources/Visualization/Checkout_times_users.png)  | ![Top 10 ending](Resources/Visualization/Checkout_times_gender.png) |
 
-<br /> ![Image](Resources/Visualization/Checkout_times_users.png) <br />
 
-- Most Citi bike trips lasted less than one hour with the highest bike ride lasting about 6 minutes. Males were 3 times more likely that than females to use bike rideshare .<br />  <br />
+- Most bike trips lasted less than one hour and the highest bike checkout time was about 6 minutes. 
+- Males were 3 times more likely that than females to use the bike rideshare.
 
-b).  How many trips are taken by the hour for each day of the week, for all riders and genders.
+<br /> 
 
-<br /> ![Image](Resources/Visualization/Trips_weekday_hr.png) <br />
+b).  How many trips are taken by the hour for each day of the week, for all riders and genders?
 
-<br /> ![Image](Resources/Visualization/Trips_weekday_gender.png) <br />
+| Trips by Weekday per Hour  | Trips by Gender (Weekday per Hour) |
+| ------------- | ------------- |
+| ![Top 10 starting](Resources/Visualization/Trips_weekday_hr.png)  | ![Top 10 ending](Resources/Visualization/Trips_weekday_gender.png)  |
 
-- Users are most likely to bike rideshare between 5 and 6 pm on weekdays except for Wednesdays. Saturdays peak hours start at 10 and lasts thorugh 7pm.
-- Males are more likely that than females to use bike rideshare on weekdays.
+- 8am, 5pm and 6pm are the peak bike rideshare hours on weekdays except for Wednesdays. 
+- Saturdays peak hours start at 10am and lasts through 7pm.
+- Males are more likely than females to use bike rideshare on weekdays.
+
 <br />
-c.) A breakdown of what days of the week a user might be more likely to check out a bike, by type of user and gender.
+c.) What days of the week will a user more likely check out a bike?
 
 <br /> ![Image](Resources/Visualization/Trips_usertype_gender.png) <br />
 
-- Male subscribers are more likey to use the ride bikeshare on weekdays.
-- Unknown customers use ride bikeshare the most on Saturdays.
-<br />
+- Male subscribers are more likely to use the ride bikeshare on weekdays.
+- Unknown customers are most likely to use the ride bikeshare on Saturdays.
 
 ### Deliverable 3
- <br />
+#### Tableau Story for the Final Presentation <br />
 
-#### Create a Story and Report for the Final Presentation <br />
-
-- Create a story in Tableau and write a report that describes the key outcomes of the NYC Citibike analysis.
+- Create a story in Tableau and describes the key outcomes of the NYC Citibike analysis.
 - Click this link to access the NYC Citibike analysis [NYC Citibike analysis dashboard](https://public.tableau.com/app/profile/pat1796/viz/DesMoinesCitiBikeProposal_16274868652750/CitiBikeProposal?publish=yes) 
 
-- Overview
+##### Overview: 
 <br /> ![Image](Resources/Dashboard_story/DesMoines_overview.png) <br />
 
-- The CitiBike ridesharing average trip duration has been insceraing steadily since 1990. A typical citi bikeshare user is a male subscriber.
+- The image above shows that a typical bikeshare user is a male subscriber. As well, the average trip duration for bike ridesharing has been increasing steadily since the 1990s. 
 
-- Checkout Times
+##### Checkout Times:
 
 <br /> ![Image](Resources/Dashboard_story/DesMoines_trip-duration_riders.png) <br />
 
-- Male users are more likely to use the bike rideshare for a trip lasting less than 40 minutes
+- Male users are more likely to use the bike rideshare and most trips last less than 60 minutes
 
-- Weekday by hour
+##### Weekday by hour:
 
 <br /> ![Image](Resources/Dashboard_story/DesMoines_trips_weekday_hour.png) <br />
 
-- Citi bike rideshare peak hours are 8 am, 5pm and 6 pm on weekdays except for Saturdays. Males are most likely to use the bike rideshare
+- Bike rideshare peak hours are 8 am, 5pm and 6 pm on weekdays except for Saturdays. Males are most likely to use the bike rideshare compared to females.
 
- - Usertype and gender
+ ##### Usertype and gender:
 <br /> ![Image](Resources/Dashboard_story/DesMoines_trips_usertype.png) <br />
 
 - Male subcribers are most likely to use bike rideshare on weekdays.
 
-- Top 10 stations
-<br /> ![Image](Resources/Dashboard_story/DesMoines_top_starting_stations.png) <br />
-
-- Pershing Square North is the top starting station at 
-<br /> ![Image](Resources/Dashboard_story/DesMoines_top_ending_stations.png) <br />
+##### Top 10 stations
 
 | Top 10 starting stations  | Top 10 ending stations |
 | ------------- | ------------- |
 | ![Top 10 starting](Resources/Dashboard_story/DesMoines_top_starting_stations.png)  | ![Top 10 ending](Resources/Dashboard_story/DesMoines_top_ending_stations.png) |
 
 
-- Pershing Square North is teh top starting and ending station 
+- Pershing Square North is the top starting and ending station for bike rideshares. 
 
-- Average Bike Utilization
+##### Average Bike Utilization
 
 <br /> ![Image](Resources/Dashboard_story/DesMoines_bike_utilization.png) <br />
 
-- Bike utilization by customsers are hignest for bike IDs 
+- Customsers have the highest average bike utilization by bikeIDS. The top 3 bikes used by customers are: 39570, 38540 and 31443.
 
 ## Summary:
 - The average trip duration for bike ridesharing has steadily increased since 1990s.
