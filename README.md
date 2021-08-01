@@ -50,7 +50,7 @@ CitiBike_df.to_csv(output_data_file, index=False)
 ### Deliverable 2
 #### Visualizations for the Trip Analysis: <br />
 
-a).  How long bikes are checked out for all riders and genders?
+a).  How long are bikes checked out for all riders and genders?
 
 | Checkout Times by Users  | Checkout Times by Gender |
 | ------------- | ------------- |
@@ -58,7 +58,7 @@ a).  How long bikes are checked out for all riders and genders?
 
 
 - Most bike trips lasted less than one hour and the highest bike checkout time was about 6 minutes. 
-- Males were 3 times more likely that than females to use the bike rideshare.
+- Males were 3 times more likely than females to use the bike rideshare.
 
 <br /> 
 
@@ -68,7 +68,7 @@ b).  How many trips are taken by the hour for each day of the week, for all ride
 | ------------- | ------------- |
 | ![Top 10 starting](Resources/Visualization/Trips_weekday_hr.png)  | ![Top 10 ending](Resources/Visualization/Trips_weekday_gender.png)  |
 
-- 8am, 5pm and 6pm are the peak bike rideshare hours on weekdays except for Wednesdays. 
+- 8am, 5pm and 6pm are the peak rideshare hours on weekdays except for Wednesdays. 
 - Saturdays peak hours start at 10am and lasts through 7pm.
 - Males are more likely than females to use bike rideshare on weekdays.
 
@@ -77,7 +77,7 @@ c.) What days of the week will a user more likely check out a bike?
 
 <br /> ![Image](Resources/Visualization/Trips_usertype_gender.png) <br />
 
-- Male subscribers are more likely to use the ride bikeshare on weekdays.
+- Male subscribers are more likely to use the ride bikeshare on all weekdays.
 - Unknown customers are most likely to use the ride bikeshare on Saturdays.
 
 ### Deliverable 3
@@ -101,12 +101,12 @@ c.) What days of the week will a user more likely check out a bike?
 
 <br /> ![Image](Resources/Dashboard_story/DesMoines_trips_weekday_hour.png) <br />
 
-- Bike rideshare peak hours are 8 am, 5pm and 6 pm on weekdays except for Saturdays. Males are most likely to use the bike rideshare compared to females.
+- Bike rideshare peak hours are 8 am, 5pm and 6 pm on weekdays except for Wednesdays. Males are most likely to use the bike rideshare compared to females.
 
  ##### Usertype and gender:
 <br /> ![Image](Resources/Dashboard_story/DesMoines_trips_usertype.png) <br />
 
-- Male subcribers are most likely to use bike rideshare on weekdays.
+- Male subcribers are most likely to use bike rideshare on all weekdays compared to female subscribers. Unknown customers though are most likely to use the rideshare on Saturdays.
 
 ##### Top 10 stations
 
