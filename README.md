@@ -115,19 +115,23 @@ c.) What days of the week will a user more likely check out a bike?
 | ![Top 10 starting](Resources/Dashboard_story/DesMoines_top_starting_stations.png)  | ![Top 10 ending](Resources/Dashboard_story/DesMoines_top_ending_stations.png) |
 
 
-- Pershing Square North is the top starting and ending station for bike rideshares. 
+- Pershing Square North is both the top starting and ending station for bike rideshares. 
 
 ##### Average Bike Utilization
 
 <br /> ![Image](Resources/Dashboard_story/DesMoines_bike_utilization.png) <br />
 
-- Customsers have the highest average bike utilization by bikeIDS. The top 3 bikes used by customers are: 39570, 38540 and 31443.
+- Customers on average have the highest utilization of bikes. The top 3 bikes used by customers by bikeIDS are: 31443, 38540 and 19481.
 
 ## Summary:
-- The average trip duration for bike ridesharing has steadily increased since 1990s.
-Male subscribers are most likely to use citi Bike rideshare on for each hour and weekdays.
+- The average trip duration for bike ridesharing has increased steadily since 1990s.
+- Male subscribers are most likely to use the bike rideshare for each hour and on weekdays.
+
+
+
 - Two additional visualizations suggested for future analysis include
- - Predict the average trip utilization for the next five years
- - Determine top starting and stopping station by a.) usertype amd b.) gender to find ways to increase bike sharing use by both groups.
+ - Add a visualization that will predict the average trip utilization for the next five years
+ - Determine top starting and stoping station by 
+ - a.) usertype and b.) gender to find ways to increase bike sharing by both groups.
 
 
