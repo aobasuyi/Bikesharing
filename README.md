@@ -1,7 +1,7 @@
 # Bikesharing
 
 ## Overview of the analysis
-A trip analysis will be performed to solidify a bike sharing business proposal. The proposal will be presented to a potential angel investor interested in providing seed funding to explore a bike share project in Des Moines.   
+A trip analysis was performed to solidify a bike sharing business proposal. The proposal will be presented to a potential angel investor interested in providing seed funding to explore a bike share project in Des Moines.   
 <br />
 The three technical deliverables required to complete the bikesharing analysis include <br />
 
@@ -17,7 +17,7 @@ The three technical deliverables required to complete the bikesharing analysis i
 
 ## Results:
 ### Deliverable 1
-#### Change Trip Duration to a Datetime Format <br />
+#### Change Trip Duration to a Datetime Format: <br />
 - Using Python and Pandas functions, convert the "tripduration" column from an integer to a datetime datatype. 
 - Export the DataFrame as a CSV file to use for the trip analysis.
 ##### Code:
@@ -81,7 +81,7 @@ c.) What days of the week will a user more likely check out a bike?
 - Unknown customers are most likely to use the ride bikeshare on Saturdays.
 
 ### Deliverable 3
-#### Tableau Story for the Final Presentation <br />
+#### Tableau Story for the Final Presentation: <br />
 
 - Create a story in Tableau and describes the key outcomes of the NYC Citibike analysis.
 - Click this link to access the NYC Citibike analysis [NYC Citibike analysis dashboard](https://public.tableau.com/app/profile/pat1796/viz/DesMoinesCitiBikeProposal_16274868652750/CitiBikeProposal?publish=yes) 
