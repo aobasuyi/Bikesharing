@@ -1,17 +1,9 @@
 # Bikesharing
-Purpose - To visualize bike sharing data using Tableau.
 
 ## Overview of the analysis
-A potential angel investor is interested in providing seed funding to explore a bike share project in Des Moines.  
-To solidify the bike-sharing business proposal, bike trip analysis will be added to the proposal at the request of one of the key stakeholders.
-
-To complete this task, Pandas will be used to change the "tripduration" column from an integer to a datetime datatype. The converted datatype will be used to create new sets of visualizations to:
-
-- Show the length of time that bikes are checked out for all riders and genders.
-- Show the number of bike trips for all riders and genders for each hour of each day of the week
-- Show the number of bike trips for each type of user and gender for each day of the week.<br />
-
-The three technical deliverables required to complete Bikesharing analysis include <br />
+A trip analysis will be added to a bike-sharing business proposal at the request of a potential angel investor interested in providing seed funding to explore a bike share project in Des Moines.  
+<br />
+The three technical deliverables required to complete the bikesharing analysis include <br />
 
 1. Change Trip Duration to a Datetime Format.
 2. Create Visualizations for the Trip Analysis.
@@ -23,13 +15,12 @@ The three technical deliverables required to complete Bikesharing analysis inclu
 - Data Tools: Jupyter Notebook, CSV, Tableau and IO (Web Server)
 - Software: Jupyter Notebook and Visual Studio Code 1.50.0
 
-
+## Results:
 ### Deliverable 1
-
 #### Change Trip Duration to a Datetime Format <br />
 - Using Python and Pandas functions, convert the "tripduration" column from an integer to a datetime datatype to get the time in hours, minutes, and seconds (00:00:00). 
 - Convert the "tripduration" column to a datetime dataytpe, then export the DataFrame as a CSV file to use for the trip analysis
-
+##### Code:
 ```
 # Files to load
 CitiBike_data_to_load = "201908-citibike-tripdata.csv"
@@ -56,13 +47,8 @@ CitiBike_df.to_csv(output_data_file, index=False)
 
 ```
 
-## Results
-- Using the visualizations in Tableau Story, describe the results of each visualization underneath the image.
-
 ### Deliverable 2
- <br />
-
-#### Create Visualizations for the Trip Analysis <br />
+#### Create Visualizations for the Trip Analysis: <br />
 
 a). How long bikes are checked out for all riders and genders.
 
